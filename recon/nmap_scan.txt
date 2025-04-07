@@ -1,0 +1,15 @@
+# Nmap Scan Results - Initial Recon
+
+nmap -sS -sV -T4 192.168.1.0/24
+
+Starting Nmap 7.94 ( https://nmap.org ) at 2025-04-07
+Nmap scan report for 192.168.1.1
+Host is up (0.00020s latency).
+...
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00019s latency).
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 9.2
+445/tcp  open  microsoft-ds Windows Server 2025 SMB
+...
