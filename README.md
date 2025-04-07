@@ -71,6 +71,10 @@ This project documents a real-world-style penetration test conducted in a contro
 ## 📸 Screenshots & Logs
 ![Nmap Scan Result](recon/nmap_scan_kali_2025-03-30.png)
 
+### Reconnaissance Phase
+
+📄 [Nmap Scan Result - 2025-03-30](recon/nmap_scan_2025-03-30.txt)
+
 
 You can find terminal outputs, Nmap scans, and screenshots in the `/logs/` and `/screenshots/` folders.
 
