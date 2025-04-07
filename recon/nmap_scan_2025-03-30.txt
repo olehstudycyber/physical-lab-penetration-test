@@ -1,0 +1,39 @@
+# Nmap TCP SYN Scan - Active Directory Target Reconnaissance
+# Date: 2025-03-30 21:59 EDT
+# Attacker Machine: Kali Linux (192.168.1.10)
+# Target Machine: Windows Server 2025 (192.168.1.2)
+
+Command:
+nmap -p- -sS -T4 192.168.1.2
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-30 21:59 EDT
+Host is up (0.0012s latency).
+Not shown: 65531 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldaps
+3268/tcp  open  globalcatalogldap
+3269/tcp  open  globalcatalogldapsl
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+49678/tcp open  unknown
+49688/tcp open  unknown
+49697/tcp open  unknown
+49698/tcp open  unknown
+49773/tcp open  unknown
+59394/tcp open  unknown
+
+MAC Address: 00:50:56:A6:F6:39 (VMware)
+
+Nmap done: 1 IP address (1 host up) scanned in 100.93 seconds
