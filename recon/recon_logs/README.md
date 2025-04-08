@@ -19,6 +19,8 @@ Identify live hosts, open ports, running services, and potential vulnerabilities
 - Host 192.168.1.2 running Windows Server 2025 with SMB, RDP, SSH, and WinRM exposed
 - AD likely enabled (LDAP port visible in deeper scans)
 - Multiple attack vectors identified for further exploitation
+![Nmap Scan](../recon/nmap_full_tcp_scan_192.168.1.2_2025-03-30.png)
+This image shows the result of a full TCP SYN scan (`-sS -p-`) against the Windows Server 2025 target (192.168.1.2) conducted on March 30, 2025.
 
 ---
 
