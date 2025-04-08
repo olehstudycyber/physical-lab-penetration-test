@@ -1,36 +1,27 @@
-# 🛡️ Physical Lab Penetration Test
+# Oleh Borysovskyy - Cybersecurity Home Lab
 
-This project documents a real-world-style penetration test conducted in a controlled physical lab environment using dedicated hardware and isolated networking.
+Welcome to my physical cybersecurity home lab! This repository documents the full setup, testing process, and analysis of a simulated enterprise network I built for learning and demonstration purposes.
 
----
+## 🔧 Project Overview
 
-## 🔍 Lab Overview
+- Physical lab with Kali Linux, Windows Server 2025, Windows 11 Pro
+- Active Directory configured and targeted in penetration testing
+- Tools used: Nmap, Metasploit, Mimikatz, Wazuh, Sysmon, etc.
 
-**Goal:** Simulate an internal network penetration test targeting a Windows Server 2025 machine using Kali Linux, identifying vulnerabilities and practicing ethical hacking techniques.
+## 📁 Repository Structure
 
----
+- `PHYSICAL_LAB.md`: Details of hardware setup and networking
+- `BUILD_SERVER.md`: Windows Server 2025 installation and AD setup
+- `recon_logs/`: Network scans and enumeration
+- `exploitation/`: Exploit strategies and execution logs
+- `post_exploitation/`: Credential dumping, persistence methods
+- `hardening/`: Defense tactics (GPOs, Defender settings)
+- `SIEM_IDS/`: Wazuh, Sysmon, and logging configuration
+- `reports/`: Final assessment, recommendations, documentation
 
-## 🧪 Lab Setup
+## 📬 Contact
+For feedback or collaboration: [Your Email or LinkedIn]
 
-| Component | Details |
-|----------|---------|
-| **Target Machine** | Windows Server 2025 (IP: 192.168.1.2) |
-| **Attacker Machine** | Kali Linux 2024.2 (IP: 192.168.1.10) |
-| **Control Machine** | Windows 11 Pro |
-| **Router** | Netgear (192.168.1.1 subnet) |
-| **Network** | Isolated, no internet access |
-| **Security** | Windows Defender, firewall, Sysmon |
-
----
-
-## ⚙️ Tools Used
-
-- Kali Linux tools (Nmap, Netcat, etc.)
-- Nmap for scanning
-- Metasploit (if used)
-- Wireshark (if used)
-- Windows Defender logs
-- Sysmon
 - SSH (enabled on target)
 - Manual command-line enumeration
 
