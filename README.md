@@ -60,7 +60,7 @@ For feedback or collaboration: [Your Email or LinkedIn]
 ---
 
 ## 📸 Screenshots & Logs
-![Nmap Full TCP Scan](recon/nmap_full_tcp_scan_192.168.1.2_2025-03-30.png)
+![Nmap Full TCP Scan]([recon/nmap_full_tcp_scan_192.168.1.2_2025-03-30.pn](https://github.com/olehstudycyber/physical-lab-penetration-test/blob/main/recon/nmap_full_tcp_scan_192.168.1.2_2025-03-30.jpg)
 
 
 ### Reconnaissance Phase
